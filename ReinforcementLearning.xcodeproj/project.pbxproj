@@ -7,7 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		842B1C641E1A77DD00C38B5F /* AISolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842B1C631E1A77DD00C38B5F /* AISolver.swift */; };
+		842B1C651E1A77DF00C38B5F /* AISolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842B1C631E1A77DD00C38B5F /* AISolver.swift */; };
+		84550C2A1E166F8E0060A9BF /* PortionNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84550C291E166F8E0060A9BF /* PortionNode.swift */; };
+		84550C2C1E1689280060A9BF /* QLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84550C2B1E1689280060A9BF /* QLearning.swift */; };
+		84550C2D1E1689280060A9BF /* QLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84550C2B1E1689280060A9BF /* QLearning.swift */; };
+		84C9C8291E1C21FD001B4EB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C9C8281E1C21FD001B4EB2 /* AppDelegate.swift */; };
+		84C9C82B1E1C21FD001B4EB2 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 84C9C82A1E1C21FD001B4EB2 /* GameScene.sks */; };
+		84C9C82D1E1C21FD001B4EB2 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 84C9C82C1E1C21FD001B4EB2 /* Actions.sks */; };
+		84C9C82F1E1C21FD001B4EB2 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C9C82E1E1C21FD001B4EB2 /* GameScene.swift */; };
+		84C9C8311E1C21FD001B4EB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C9C8301E1C21FD001B4EB2 /* ViewController.swift */; };
+		84C9C8331E1C21FD001B4EB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84C9C8321E1C21FD001B4EB2 /* Assets.xcassets */; };
+		84C9C8361E1C21FD001B4EB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C9C8341E1C21FD001B4EB2 /* Main.storyboard */; };
+		84C9C83B1E1C2236001B4EB2 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F16DD51E151956004755F8 /* Box.swift */; };
+		84C9C83C1E1C2236001B4EB2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F16DD21E151813004755F8 /* Constants.swift */; };
+		84C9C83D1E1C2236001B4EB2 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F16DD01E151797004755F8 /* Grid.swift */; };
+		84C9C83F1E1C2236001B4EB2 /* Portion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F16DCE1E15175D004755F8 /* Portion.swift */; };
+		84C9C8401E1C2236001B4EB2 /* QLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84550C2B1E1689280060A9BF /* QLearning.swift */; };
+		84C9C8411E1C2236001B4EB2 /* AISolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842B1C631E1A77DD00C38B5F /* AISolver.swift */; };
+		84C9C8421E1C2251001B4EB2 /* BoxNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F16DF91E15383F004755F8 /* BoxNode.swift */; };
+		84C9C8431E1C2251001B4EB2 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F16DFA1E15383F004755F8 /* GridView.swift */; };
+		84C9C8441E1C2251001B4EB2 /* PortionNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84550C291E166F8E0060A9BF /* PortionNode.swift */; };
 		84F16DC81E15170F004755F8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F16DC71E15170F004755F8 /* main.swift */; };
+		84F16DCF1E15175D004755F8 /* Portion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F16DCE1E15175D004755F8 /* Portion.swift */; };
+		84F16DD11E151797004755F8 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F16DD01E151797004755F8 /* Grid.swift */; };
+		84F16DD31E151813004755F8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F16DD21E151813004755F8 /* Constants.swift */; };
+		84F16DD61E151956004755F8 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F16DD51E151956004755F8 /* Box.swift */; };
+		84F16DE31E1537DE004755F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F16DE21E1537DE004755F8 /* AppDelegate.swift */; };
+		84F16DE51E1537DE004755F8 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 84F16DE41E1537DE004755F8 /* GameScene.sks */; };
+		84F16DE71E1537DE004755F8 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 84F16DE61E1537DE004755F8 /* Actions.sks */; };
+		84F16DE91E1537DE004755F8 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F16DE81E1537DE004755F8 /* GameScene.swift */; };
+		84F16DEB1E1537DE004755F8 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F16DEA1E1537DE004755F8 /* GameViewController.swift */; };
+		84F16DEE1E1537DE004755F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F16DEC1E1537DE004755F8 /* Main.storyboard */; };
+		84F16DF01E1537DE004755F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F16DEF1E1537DE004755F8 /* Assets.xcassets */; };
+		84F16DF31E1537DE004755F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F16DF11E1537DE004755F8 /* LaunchScreen.storyboard */; };
+		84F16DFB1E15383F004755F8 /* BoxNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F16DF91E15383F004755F8 /* BoxNode.swift */; };
+		84F16DFC1E15383F004755F8 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F16DFA1E15383F004755F8 /* GridView.swift */; };
+		84F16E021E153944004755F8 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F16DD51E151956004755F8 /* Box.swift */; };
+		84F16E031E153944004755F8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F16DD21E151813004755F8 /* Constants.swift */; };
+		84F16E041E153944004755F8 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F16DD01E151797004755F8 /* Grid.swift */; };
+		84F16E061E153944004755F8 /* Portion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F16DCE1E15175D004755F8 /* Portion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,12 +62,54 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		842B1C631E1A77DD00C38B5F /* AISolver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AISolver.swift; sourceTree = "<group>"; };
+		84550C291E166F8E0060A9BF /* PortionNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PortionNode.swift; path = Views/PortionNode.swift; sourceTree = "<group>"; };
+		84550C2B1E1689280060A9BF /* QLearning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QLearning.swift; sourceTree = "<group>"; };
+		84C9C8261E1C21FD001B4EB2 /* ReinforcementLearningComputer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReinforcementLearningComputer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C9C8281E1C21FD001B4EB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84C9C82A1E1C21FD001B4EB2 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		84C9C82C1E1C21FD001B4EB2 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		84C9C82E1E1C21FD001B4EB2 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		84C9C8301E1C21FD001B4EB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84C9C8321E1C21FD001B4EB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84C9C8351E1C21FD001B4EB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84C9C8371E1C21FD001B4EB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84F16DC41E15170F004755F8 /* ReinforcementLearning */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ReinforcementLearning; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F16DC71E15170F004755F8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		84F16DCE1E15175D004755F8 /* Portion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Portion.swift; sourceTree = "<group>"; };
+		84F16DD01E151797004755F8 /* Grid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		84F16DD21E151813004755F8 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		84F16DD51E151956004755F8 /* Box.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
+		84F16DE01E1537DE004755F8 /* ReinforcementLearningMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReinforcementLearningMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F16DE21E1537DE004755F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84F16DE41E1537DE004755F8 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		84F16DE61E1537DE004755F8 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		84F16DE81E1537DE004755F8 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		84F16DEA1E1537DE004755F8 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		84F16DED1E1537DE004755F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84F16DEF1E1537DE004755F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84F16DF21E1537DE004755F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84F16DF41E1537DE004755F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F16DF91E15383F004755F8 /* BoxNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BoxNode.swift; path = Views/BoxNode.swift; sourceTree = "<group>"; };
+		84F16DFA1E15383F004755F8 /* GridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GridView.swift; path = Views/GridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		84C9C8231E1C21FD001B4EB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		84F16DC11E15170F004755F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F16DDD1E1537DE004755F8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,10 +119,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84C9C8271E1C21FD001B4EB2 /* ReinforcementLearningComputer */ = {
+			isa = PBXGroup;
+			children = (
+				84C9C8281E1C21FD001B4EB2 /* AppDelegate.swift */,
+				84C9C82A1E1C21FD001B4EB2 /* GameScene.sks */,
+				84C9C82C1E1C21FD001B4EB2 /* Actions.sks */,
+				84C9C82E1E1C21FD001B4EB2 /* GameScene.swift */,
+				84C9C8301E1C21FD001B4EB2 /* ViewController.swift */,
+				84C9C8321E1C21FD001B4EB2 /* Assets.xcassets */,
+				84C9C8341E1C21FD001B4EB2 /* Main.storyboard */,
+				84C9C8371E1C21FD001B4EB2 /* Info.plist */,
+			);
+			path = ReinforcementLearningComputer;
+			sourceTree = "<group>";
+		};
 		84F16DBB1E15170F004755F8 = {
 			isa = PBXGroup;
 			children = (
 				84F16DC61E15170F004755F8 /* ReinforcementLearning */,
+				84F16DE11E1537DE004755F8 /* ReinforcementLearningMobile */,
+				84C9C8271E1C21FD001B4EB2 /* ReinforcementLearningComputer */,
 				84F16DC51E15170F004755F8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +148,8 @@
 			isa = PBXGroup;
 			children = (
 				84F16DC41E15170F004755F8 /* ReinforcementLearning */,
+				84F16DE01E1537DE004755F8 /* ReinforcementLearningMobile.app */,
+				84C9C8261E1C21FD001B4EB2 /* ReinforcementLearningComputer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,14 +157,64 @@
 		84F16DC61E15170F004755F8 /* ReinforcementLearning */ = {
 			isa = PBXGroup;
 			children = (
+				84F16DD51E151956004755F8 /* Box.swift */,
+				84F16DD21E151813004755F8 /* Constants.swift */,
+				84F16DD01E151797004755F8 /* Grid.swift */,
 				84F16DC71E15170F004755F8 /* main.swift */,
+				84F16DCE1E15175D004755F8 /* Portion.swift */,
+				84550C2B1E1689280060A9BF /* QLearning.swift */,
+				842B1C631E1A77DD00C38B5F /* AISolver.swift */,
 			);
 			path = ReinforcementLearning;
+			sourceTree = "<group>";
+		};
+		84F16DE11E1537DE004755F8 /* ReinforcementLearningMobile */ = {
+			isa = PBXGroup;
+			children = (
+				84F16DE61E1537DE004755F8 /* Actions.sks */,
+				84F16DE21E1537DE004755F8 /* AppDelegate.swift */,
+				84F16DEF1E1537DE004755F8 /* Assets.xcassets */,
+				84F16DE41E1537DE004755F8 /* GameScene.sks */,
+				84F16DE81E1537DE004755F8 /* GameScene.swift */,
+				84F16DEA1E1537DE004755F8 /* GameViewController.swift */,
+				84F16DF41E1537DE004755F8 /* Info.plist */,
+				84F16DF11E1537DE004755F8 /* LaunchScreen.storyboard */,
+				84F16DEC1E1537DE004755F8 /* Main.storyboard */,
+				84F16DF81E153825004755F8 /* Views */,
+			);
+			path = ReinforcementLearningMobile;
+			sourceTree = "<group>";
+		};
+		84F16DF81E153825004755F8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				84F16DF91E15383F004755F8 /* BoxNode.swift */,
+				84F16DFA1E15383F004755F8 /* GridView.swift */,
+				84550C291E166F8E0060A9BF /* PortionNode.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		84C9C8251E1C21FD001B4EB2 /* ReinforcementLearningComputer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84C9C83A1E1C21FD001B4EB2 /* Build configuration list for PBXNativeTarget "ReinforcementLearningComputer" */;
+			buildPhases = (
+				84C9C8221E1C21FD001B4EB2 /* Sources */,
+				84C9C8231E1C21FD001B4EB2 /* Frameworks */,
+				84C9C8241E1C21FD001B4EB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReinforcementLearningComputer;
+			productName = ReinforcementLearningComputer;
+			productReference = 84C9C8261E1C21FD001B4EB2 /* ReinforcementLearningComputer.app */;
+			productType = "com.apple.product-type.application";
+		};
 		84F16DC31E15170F004755F8 /* ReinforcementLearning */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84F16DCB1E15170F004755F8 /* Build configuration list for PBXNativeTarget "ReinforcementLearning" */;
@@ -82,6 +232,23 @@
 			productReference = 84F16DC41E15170F004755F8 /* ReinforcementLearning */;
 			productType = "com.apple.product-type.tool";
 		};
+		84F16DDF1E1537DE004755F8 /* ReinforcementLearningMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84F16DF51E1537DE004755F8 /* Build configuration list for PBXNativeTarget "ReinforcementLearningMobile" */;
+			buildPhases = (
+				84F16DDC1E1537DE004755F8 /* Sources */,
+				84F16DDD1E1537DE004755F8 /* Frameworks */,
+				84F16DDE1E1537DE004755F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReinforcementLearningMobile;
+			productName = ReinforcementLearningMobile;
+			productReference = 84F16DE01E1537DE004755F8 /* ReinforcementLearningMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -92,7 +259,17 @@
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Adnan Zahid";
 				TargetAttributes = {
+					84C9C8251E1C21FD001B4EB2 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = Q666HR669V;
+						ProvisioningStyle = Automatic;
+					};
 					84F16DC31E15170F004755F8 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = Q666HR669V;
+						ProvisioningStyle = Automatic;
+					};
+					84F16DDF1E1537DE004755F8 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = Q666HR669V;
 						ProvisioningStyle = Automatic;
@@ -105,6 +282,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 84F16DBB1E15170F004755F8;
 			productRefGroup = 84F16DC51E15170F004755F8 /* Products */;
@@ -112,22 +290,151 @@
 			projectRoot = "";
 			targets = (
 				84F16DC31E15170F004755F8 /* ReinforcementLearning */,
+				84F16DDF1E1537DE004755F8 /* ReinforcementLearningMobile */,
+				84C9C8251E1C21FD001B4EB2 /* ReinforcementLearningComputer */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		84C9C8241E1C21FD001B4EB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C9C82B1E1C21FD001B4EB2 /* GameScene.sks in Resources */,
+				84C9C8331E1C21FD001B4EB2 /* Assets.xcassets in Resources */,
+				84C9C82D1E1C21FD001B4EB2 /* Actions.sks in Resources */,
+				84C9C8361E1C21FD001B4EB2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F16DDE1E1537DE004755F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F16DEE1E1537DE004755F8 /* Main.storyboard in Resources */,
+				84F16DE51E1537DE004755F8 /* GameScene.sks in Resources */,
+				84F16DF01E1537DE004755F8 /* Assets.xcassets in Resources */,
+				84F16DF31E1537DE004755F8 /* LaunchScreen.storyboard in Resources */,
+				84F16DE71E1537DE004755F8 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		84C9C8221E1C21FD001B4EB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C9C83C1E1C2236001B4EB2 /* Constants.swift in Sources */,
+				84C9C8311E1C21FD001B4EB2 /* ViewController.swift in Sources */,
+				84C9C83F1E1C2236001B4EB2 /* Portion.swift in Sources */,
+				84C9C8431E1C2251001B4EB2 /* GridView.swift in Sources */,
+				84C9C8411E1C2236001B4EB2 /* AISolver.swift in Sources */,
+				84C9C83B1E1C2236001B4EB2 /* Box.swift in Sources */,
+				84C9C82F1E1C21FD001B4EB2 /* GameScene.swift in Sources */,
+				84C9C8291E1C21FD001B4EB2 /* AppDelegate.swift in Sources */,
+				84C9C83D1E1C2236001B4EB2 /* Grid.swift in Sources */,
+				84C9C8441E1C2251001B4EB2 /* PortionNode.swift in Sources */,
+				84C9C8401E1C2236001B4EB2 /* QLearning.swift in Sources */,
+				84C9C8421E1C2251001B4EB2 /* BoxNode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		84F16DC01E15170F004755F8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				84F16DC81E15170F004755F8 /* main.swift in Sources */,
+				84F16DCF1E15175D004755F8 /* Portion.swift in Sources */,
+				84F16DD11E151797004755F8 /* Grid.swift in Sources */,
+				84F16DD31E151813004755F8 /* Constants.swift in Sources */,
+				84F16DD61E151956004755F8 /* Box.swift in Sources */,
+				84550C2C1E1689280060A9BF /* QLearning.swift in Sources */,
+				842B1C641E1A77DD00C38B5F /* AISolver.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F16DDC1E1537DE004755F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F16DE91E1537DE004755F8 /* GameScene.swift in Sources */,
+				84550C2A1E166F8E0060A9BF /* PortionNode.swift in Sources */,
+				842B1C651E1A77DF00C38B5F /* AISolver.swift in Sources */,
+				84550C2D1E1689280060A9BF /* QLearning.swift in Sources */,
+				84F16DEB1E1537DE004755F8 /* GameViewController.swift in Sources */,
+				84F16DE31E1537DE004755F8 /* AppDelegate.swift in Sources */,
+				84F16E041E153944004755F8 /* Grid.swift in Sources */,
+				84F16E021E153944004755F8 /* Box.swift in Sources */,
+				84F16E031E153944004755F8 /* Constants.swift in Sources */,
+				84F16DFC1E15383F004755F8 /* GridView.swift in Sources */,
+				84F16DFB1E15383F004755F8 /* BoxNode.swift in Sources */,
+				84F16E061E153944004755F8 /* Portion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		84C9C8341E1C21FD001B4EB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84C9C8351E1C21FD001B4EB2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84F16DEC1E1537DE004755F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84F16DED1E1537DE004755F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84F16DF11E1537DE004755F8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84F16DF21E1537DE004755F8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		84C9C8381E1C21FD001B4EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Q666HR669V;
+				INFOPLIST_FILE = ReinforcementLearningComputer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ReinforcementLearning.ReinforcementLearningComputer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		84C9C8391E1C21FD001B4EB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Q666HR669V;
+				INFOPLIST_FILE = ReinforcementLearningComputer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ReinforcementLearning.ReinforcementLearningComputer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 		84F16DC91E15170F004755F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -234,9 +541,54 @@
 			};
 			name = Release;
 		};
+		84F16DF61E1537DE004755F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = Q666HR669V;
+				INFOPLIST_FILE = ReinforcementLearningMobile/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ReinforcementLearning.ReinforcementLearningMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84F16DF71E1537DE004755F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = Q666HR669V;
+				INFOPLIST_FILE = ReinforcementLearningMobile/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ReinforcementLearning.ReinforcementLearningMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		84C9C83A1E1C21FD001B4EB2 /* Build configuration list for PBXNativeTarget "ReinforcementLearningComputer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C9C8381E1C21FD001B4EB2 /* Debug */,
+				84C9C8391E1C21FD001B4EB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		84F16DBF1E15170F004755F8 /* Build configuration list for PBXProject "ReinforcementLearning" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -253,6 +605,16 @@
 				84F16DCD1E15170F004755F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84F16DF51E1537DE004755F8 /* Build configuration list for PBXNativeTarget "ReinforcementLearningMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F16DF61E1537DE004755F8 /* Debug */,
+				84F16DF71E1537DE004755F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

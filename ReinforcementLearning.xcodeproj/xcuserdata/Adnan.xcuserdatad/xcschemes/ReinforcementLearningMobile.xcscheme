@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "84F16DC31E15170F004755F8"
-               BuildableName = "ReinforcementLearning"
-               BlueprintName = "ReinforcementLearning"
+               BlueprintIdentifier = "84F16DDF1E1537DE004755F8"
+               BuildableName = "ReinforcementLearningMobile.app"
+               BlueprintName = "ReinforcementLearningMobile"
                ReferencedContainer = "container:ReinforcementLearning.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "84F16DC31E15170F004755F8"
-            BuildableName = "ReinforcementLearning"
-            BlueprintName = "ReinforcementLearning"
+            BlueprintIdentifier = "84F16DDF1E1537DE004755F8"
+            BuildableName = "ReinforcementLearningMobile.app"
+            BlueprintName = "ReinforcementLearningMobile"
             ReferencedContainer = "container:ReinforcementLearning.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -55,9 +55,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "84F16DC31E15170F004755F8"
-            BuildableName = "ReinforcementLearning"
-            BlueprintName = "ReinforcementLearning"
+            BlueprintIdentifier = "84F16DDF1E1537DE004755F8"
+            BuildableName = "ReinforcementLearningMobile.app"
+            BlueprintName = "ReinforcementLearningMobile"
             ReferencedContainer = "container:ReinforcementLearning.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -74,9 +74,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "84F16DC31E15170F004755F8"
-            BuildableName = "ReinforcementLearning"
-            BlueprintName = "ReinforcementLearning"
+            BlueprintIdentifier = "84F16DDF1E1537DE004755F8"
+            BuildableName = "ReinforcementLearningMobile.app"
+            BlueprintName = "ReinforcementLearningMobile"
             ReferencedContainer = "container:ReinforcementLearning.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
