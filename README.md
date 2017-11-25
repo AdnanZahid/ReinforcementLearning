@@ -6,7 +6,7 @@ Basically, it navigates around a grid to find the goal (without knowing it befor
 
 Here's a visual representation:
 
-![Visual representation] (https://github.com/AdnanZahid/ReinforcementLearning/blob/master/Example.png)
+![Visual representation](https://github.com/AdnanZahid/ReinforcementLearning/blob/master/Example.png)
 
 1. **_Green color_** represents Q-value
 2. **_Red color_** represents failure node
