@@ -72,9 +72,10 @@ class BoxNode: SKSpriteNode {
     
     func redraw(box: Box) {
         
-        let colorValue: CGFloat = CGFloat(box.value)
+        let greenColorValue: CGFloat = CGFloat(box.value)
+        let redColorValue: CGFloat = CGFloat(-box.value)
         
-        color = SKColor.init(red: 0.0, green: colorValue, blue: 0.0, alpha: colorValue)
+        color = SKColor.init(red: redColorValue, green: greenColorValue, blue: 0.0, alpha: 1.0)
         
         showSelected(selected: box.isSelected)
         

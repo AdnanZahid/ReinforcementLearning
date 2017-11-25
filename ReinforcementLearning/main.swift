@@ -9,5 +9,3 @@
 import Foundation
 
 var grid: Grid = Grid()
-
-grid.printBoxArray()

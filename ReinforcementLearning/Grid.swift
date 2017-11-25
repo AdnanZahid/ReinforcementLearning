@@ -38,7 +38,22 @@ class Grid {
                 box.x = x
                 box.y = y
                 
-                if y == 1 && x > 0 {
+                if y == 1 && x > 0 && x < 10 {
+                    
+                    box.isAvailable = false
+                }
+                
+                if y == 5 && x > 5 && x < 12 {
+                    
+                    box.isAvailable = false
+                }
+                
+                if y == 9 && x > 10 && x < 15 {
+                    
+                    box.isAvailable = false
+                }
+                
+                if y == 13 && x > 4 && x < 13 {
                     
                     box.isAvailable = false
                 }
@@ -66,7 +81,7 @@ class Grid {
     
     func getRandomBox() -> Box {
         
-        let x: Int = 15
+        let x: Int = 0
         let y: Int = 15
         
         let box: Box = boxArray[x][y]!
