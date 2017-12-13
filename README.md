@@ -1,4 +1,4 @@
-# ReinforcementLearning
+# Reinforcement Learning
 
 This is a simple Reinforcement Learning project written in Swift.
 
