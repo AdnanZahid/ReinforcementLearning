@@ -2,7 +2,7 @@
 
 This is a simple Reinforcement Learning project written in Swift.
 
-Basically, it navigates around a grid to find the goal (without knowing it before hand). Then it constructs an optimal path to the goal using Q-learning.
+Basically, it navigates around a grid to find the goal (without knowing it before hand). Then it constructs an optimal path to the goal using model free reinforcement learning.
 
 Here's a visual representation:
 
